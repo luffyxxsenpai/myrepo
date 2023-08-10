@@ -1,0 +1,50 @@
+/* Dark theme. */
+@import "~/.cache/wal/colors-rofi-dark"
+
+element {
+	padding: 12;
+}
+
+element selected {
+	text-color: @background;
+}
+
+entry {
+	placeholder: 	"Search";
+	padding: 12 0 12 3;
+}
+
+inputbar {
+	children: [prompt, entry];
+}
+
+listview {
+	columns: 2;
+	lines: 8;
+}
+window {
+	transparency: "true";
+}
+
+mainbox {
+	children: [inputbar, listview];
+}
+
+prompt {
+	enabled: false;
+	padding: 12 0 0 12;
+	font: "FontAwesome 11";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

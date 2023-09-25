@@ -19,6 +19,7 @@ eval "$(starship init zsh)"
 
 alias n="nvim"
 alias u="update"
+alias U="update --noconfirm"
 alias i="sudo pacman -S"
 alias bsp="nvim /home/luffy/.config/bspwm/bspwmrc"
 alias sxh="nvim /home/luffy/.config/bspwm/sxhkdrc"

@@ -1,4 +1,4 @@
-# terminal emulator
+#terminal emulator
 super + Return
 	alacritty
 	
@@ -17,6 +17,11 @@ super + {w,e,p,t,m,y,r,b}
 	Bitwarden, \
         }
     
+##2nd file
+super + shift + e 
+  nautilus
+super + shift + w 
+  brave
 #lock
 super + l
 	betterlockscreen -l --off 10 
